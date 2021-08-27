@@ -47,7 +47,7 @@ function createCardFace(face, card, element) {
         iconElement.src = "./assets/images/" + card.icon + ".png";
         cardElementFace.appendChild(iconElement);
     } else {
-        // cardElementFace.innerHTML = "&lt/&gt";
+        cardElementFace.innerHTML = "&lt/&gt";
     }
 
     element.appendChild(cardElementFace);
